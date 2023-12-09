@@ -36,7 +36,7 @@
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-"자산"에 `TFNSA` 가 나타남 (이미 faucet에서 코인을 받아둔 상태)
+"자산"에 `TFNSA` 가 나타남
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
