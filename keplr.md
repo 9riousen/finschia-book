@@ -1,0 +1,43 @@
+# 지갑(Keplr) 설정하기
+
+컨트랙트 개발의 배포와 실행에는 가스비가 필요하다. 핀시아에선 `FNSA`, 에보니에선 `TFNSA`가 필요하다.
+
+이를 담아둘 개인지갑이 로컬 컴퓨터에 필요한데 핀시아(에보니)용 개인지갑은 다음과 같다:
+
+1. [DOSI Vault](https://chromewebstore.google.com/detail/dosi-vault/blpiicikpimmklhoiploliaenjmecabp):  크롬확장 형태로 배포되고 핀시아만 지원됨. LINE NEXT 제공
+2. [Keplr](https://chromewebstore.google.com/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap): 코스모스 블록체인에서 유명한 개인지갑. IBC전송 지원
+3. [핀시아 CLI](https://docs.finschia.network/ko/node-management/interaction-with-finschia/using-cli): `fnsad` 실행파일은 노드로 사용할 수도 있지만 CLI로도 사용 가능. CLI에 지갑관리 기능이 내장됨
+
+이 책에선 Keplr와 `fnsad` 를 다룰 예정이다. 참고로 [`핀시아 문서에선 Keplr를 사용`](https://docs.finschia.network/ko/node-management/use-wallet)한다.
+
+### `Keplr 설치`
+
+[크롬 웹 스토어 Keplr 페이지](https://chromewebstore.google.com/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap)에서 설치
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p> </p></figcaption></figure>
+
+&#x20;Keplr는 여러 코스모스 체인을 지원하지만 Ebony 체인은 별도로 추가해 주어야 한다. 현재 Ebony 체인이 추가되어있는지는 "체인 선택하기" 화면에서 볼 수 있다 (`☰` → "체인 표시")
+
+
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+### Ebony 체인 추가
+
+[https://chains.keplr.app/](https://chains.keplr.app/) 는 Keplr에 빌트인(빌트인된 체인을 Native chain이라고 함) 되지는 않았지만 커뮤니티에서 승인한 체인들의 목록임.
+
+"ebony"를 찾아서 "Add to Keplr"를 클릭한다.
+
+
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+체인이 잘 추가되었나 확인 (체크박스 선택)
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+"자산"에 `TFNSA` 가 나타남 (이미 faucet에서 코인을 받아둔 상태)
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
