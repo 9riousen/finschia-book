@@ -1,4 +1,23 @@
-# 지갑(케플러) 설정하기
+---
+cover: .gitbook/assets/wallet.png
+coverY: -501.42756183745587
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# 지갑 설정하기
 
 컨트랙트 개발의 배포와 실행에는 가스비가 필요하다. 핀시아에선 `FNSA`, 에보니에선 `TFNSA`가 필요하다.
 
