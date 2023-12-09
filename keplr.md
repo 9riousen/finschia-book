@@ -6,9 +6,9 @@
 
 1. [DOSI Vault](https://chromewebstore.google.com/detail/dosi-vault/blpiicikpimmklhoiploliaenjmecabp):  크롬확장 형태로 배포되고 핀시아만 지원됨. LINE NEXT 제공
 2. [Keplr](https://chromewebstore.google.com/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap): 코스모스 블록체인에서 유명한 개인지갑. IBC전송 지원
-3. [핀시아 CLI](https://docs.finschia.network/ko/node-management/interaction-with-finschia/using-cli): `fnsad` 실행파일은 노드로 사용할 수도 있지만 CLI로도 사용 가능. CLI에 지갑관리 기능이 내장됨
+3. [핀시아 CLI](https://docs.finschia.network/ko/node-management/interaction-with-finschia/using-cli): `fnsad` 실행파일은 노드로 사용할 수도 있지만 CLI[^1]로도 사용 가능. CLI에 지갑관리 기능이 내장됨
 
-이 책에선 Keplr와 `fnsad` 를 다룰 예정이다. 참고로 [`핀시아 문서에선 Keplr를 사용`](https://docs.finschia.network/ko/node-management/use-wallet)한다.
+이 책에선 Keplr와 `fnsad` 를 다룰 예정이다.
 
 ### `Keplr 설치`
 
@@ -24,9 +24,9 @@
 
 ### Ebony 체인 추가
 
-[https://chains.keplr.app/](https://chains.keplr.app/) 는 Keplr에 빌트인(빌트인된 체인을 Native chain이라고 함) 되지는 않았지만 커뮤니티에서 승인한 체인들의 목록임.
+[https://chains.keplr.app/](https://chains.keplr.app/) 는 Keplr에 빌트인(케플러에선 [Native chain이라 칭함](https://medium.com/chainapsis/keplr-explained-native-vs-suggest-chain-or-permissionless-integration-8e425f921086)) 되지는 않았지만 커뮤니티에서 승인한 체인들의 목록임.
 
-"ebony"를 찾아서 "Add to Keplr"를 클릭한다.
+"ebony"를 검색하여 "Add to Keplr"를 클릭한다.
 
 
 
@@ -41,3 +41,5 @@
 "자산"에 `TFNSA` 가 나타남 (이미 faucet에서 코인을 받아둔 상태)
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+[^1]: Command Line Interface

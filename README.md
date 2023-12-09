@@ -12,7 +12,7 @@
 
 ## 테스트넷 에보니
 
-현재(23/11/27)기준 테스트넷의 Endpoint만 공개된 상태. 하지만 컨트랙트 개발은 어차피 테스트넷(`ebony-2`)에서  테스트코인(`TFNSA`)으로 진행한다.
+현재(23/11/27) 테스트넷의 Endpoint만 공개된 상태.  컨트랙트 개발은 어차피 테스트넷(`ebony-2`)에서  테스트코인(`TFNSA`)으로 진행한다.
 
 * [에보니 테스트넷 엔드포인트 공개 | xangle](https://xangle.io/insight/events/655457f3fa9cf10a0c6279a5)
 * [Releasing Ebony testnet endpoint | medium](https://medium.com/lineblockchain/en-kr-releasing-ebony-testnet-endpoint-7141d7ca9c9b)
