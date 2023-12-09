@@ -1,6 +1,20 @@
 ---
 cover: .gitbook/assets/image (12).png
 coverY: -123.48355263157895
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 테스트 코인 받기
