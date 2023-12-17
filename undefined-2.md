@@ -37,7 +37,15 @@ layout:
 
 `tlink15ujly6rhympqrsqnxgmt2twzesmr8yyqclfsyk` 은 김택배의 주소이니 무엇이든 많이 보내도 상관없다.&#x20;
 
-## 수도꼭지에 코인 요청하기
+## TFNSA 요청하기
+
+### TFNSA 수도꼭지 (브라우져)
+
+[https://tfnsa-faucet.vercel.app/](https://tfnsa-faucet.vercel.app/) 에서 신청한다
+
+![](.gitbook/assets/tfnsa-faucet.png)
+
+### REST API 호출 (curl)
 
 ```bash
 curl --header "Content-Type: application/json" \
@@ -45,6 +53,8 @@ curl --header "Content-Type: application/json" \
      --data '{"denom":"tcony","address":"tlink15ujly6rhympqrsqnxgmt2twzesmr8yyqclfsyk"}' \
      https://faucet-ebonynw.line-apps.com/credit
 ```
+
+
 
 즉시 케플러에서 잔액 확인됨 (매우 빠르다)
 
