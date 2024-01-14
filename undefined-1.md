@@ -41,11 +41,13 @@ layout:
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-### Ebony 체인 추가
+### 케플러에 Finschia, Ebony 체인 추가
 
 [https://chains.keplr.app/](https://chains.keplr.app/) 는 케플러 커뮤니티에서 인정한 체인 목록을 제공한다. "ebony"를 검색하여 "Add to Keplr"를 클릭한다.
 
-케플러는 기본적으로 지원하는 체인 목록([Native chain이라 칭함](https://medium.com/chainapsis/keplr-explained-native-vs-suggest-chain-or-permissionless-integration-8e425f921086)) 이 있고 후에 사용자가 체인을 추가할 수 있는 구조이다. 핀시아와 에보니는 케플러에서 기본으로 제공하지 않는다.
+케플러는 기본적으로 지원하는 체인([Native chain](https://medium.com/chainapsis/keplr-explained-native-vs-suggest-chain-or-permissionless-integration-8e425f921086)) 목록이 있고 여기에 사용자가 체인을 추가할 수 있는 구조이다. 핀시아와 에보니를 추가한다.
+
+{% embed url="https://www.youtube.com/watch?v=nTqCfzlbWUA" %}
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -58,6 +60,10 @@ layout:
 "자산"에 `TFNSA` 가 나타남
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+## 도시 볼트에서 케플러로 지갑 옮기기
+
+{% embed url="https://www.youtube.com/watch?v=IEUihpGdqPE" %}
 
 [^1]: Inter Blockchain Communication
 
